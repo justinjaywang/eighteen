@@ -1,6 +1,7 @@
 title: Temp 18
 timezone: America/New_York
 url: 
+author: Justin Jay Wang
 description: > # TO DO: add description and
   Temp 18 is a typeface.
 exclude:
@@ -14,3 +15,5 @@ sass:
   style: compressed
 repository: justinjaywnag/typeface-fall-2016
 google_analytics: 
+footer: >
+  Designed by Justin Jay Wang in the fall of 2016 for Type@Cooper's Principles of Typeface Design.

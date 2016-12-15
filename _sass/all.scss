@@ -21,9 +21,6 @@ html {
   height: 100%;
   @include box-sizing(border-box);
   font-size: $font-size--html;
-  @include max-width($max-width--sm) {
-    font-size: $font-size--html-sm;
-  }
 }
 body {
   font-family: $font-family--body;
@@ -31,9 +28,60 @@ body {
   font-size: $font-size--body;
   line-height: $line-height--body;
   background-color: $background-color--body;
-  color: $color--body;
+  color: $color--primary;
   @include antialias;
   overflow-x: hidden;
+}
+.section {
+  margin-bottom: $v*1.5;
+  position: relative;
+}
+.p {
+  margin-bottom: 0.5em;
+}
+.p--small {
+  font-size: 0.916667em;
+  line-height: 1.5;
+}
+.p--normal {
+  font-size: 1em;
+}
+.p--21 {
+  font-size: 1.166667em;
+  line-height: 1.4;
+}
+.p--24 {
+  font-size: 1.333333em;
+  line-height: 1.4;
+}
+.p--36 {
+  font-size: 2em;
+  line-height: 1.3;
+}
+.p--72 {
+  font-size: 4em;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.p--144 {
+  font-size: 8em;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.caps {
+  text-transform: uppercase;
+  @include ellipsis;
+}
+.aside {
+  font-size: $font-size--small;
+  color: $color--secondary;
+  @include min-width($min-width--lg) {
+    position: absolute;
+    top: 0;
+    left: -5em;
+    width: 4em;
+    text-align: right;
+  }
 }
 
 // grid
@@ -48,12 +96,7 @@ body {
     padding-left: $gutter--sm;
     padding-right: $gutter--sm;
   }
-}
-.container--narrow {
-  max-width: $max-width--container--narrow;
-}
-.container--wide {
-  max-width: $max-width--container--wide;
+  max-width: $max-width--container; // TO DO: adjust grid by percentage width
 }
 .row {
   margin-left: -$gutter/2;
@@ -118,4 +161,13 @@ body {
   @include max-width($max-width--md) {
     width: 100%;
   }
+}
+
+// header and footer
+// -----------------
+
+.header,
+.footer {
+  margin-top: $v*3;
+  margin-bottom: $v*3;
 }

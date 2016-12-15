@@ -3,5 +3,12 @@ layout: default
 ---
 
 <main class="main">
-  {{ content }}
+  {% comment %}{{ content }}{% endcomment %}
+  {% for item in page.items %}
+    <section class="section">
+      <p class="p p--{{ item.size }}">{{ item.content }}</p>
+      <p class="p p--{{ item.size }} caps">{{ item.content }}</p>
+      <aside class="aside">{{ item.aside | default: item.size }}</aside>
+    </section>
+  {% endfor %}
 </main>
