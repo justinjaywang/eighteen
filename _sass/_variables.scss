@@ -1,0 +1,39 @@
+// colors
+// ------
+
+$background-color--body: #fff;
+$color--body:            #222;
+
+// typography
+// ----------
+
+$font-size--html:    18px;
+$font-size--html-sm: 18px;
+
+$font-family--body: sans-serif;
+$font-weight--body: 400;
+$font-size--body:   1em;
+$line-height--body: 1.5;
+
+// sizing and spacing
+// ------------------
+
+$v: $line-height--body * 1rem;
+
+// grid
+// ----
+
+$min-width--sm: 480px;
+$min-width--md: 720px;
+$min-width--lg: 960px;
+$min-width--xl: 1200px;
+$max-width--xs: ($min-width--sm - 1);
+$max-width--sm: ($min-width--md - 1);
+$max-width--md: ($min-width--lg - 1);
+$max-width--lg: ($min-width--xl - 1);
+
+$max-width--container--narrow: 37.5rem;
+$max-width--container--wide:   1440px;
+
+$gutter--sm: 4.166667%;
+$gutter:     1.5rem;

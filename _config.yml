@@ -1,0 +1,16 @@
+title: Temp 18
+timezone: America/New_York
+url: 
+description: > # TO DO: add description and
+  Temp 18 is a typeface.
+exclude:
+- Gruntfile.js
+- Gemfile.lock
+- package.json
+- README*
+- node_modules
+- '.gitignore'
+sass:
+  style: compressed
+repository: justinjaywnag/typeface-fall-2016
+google_analytics: 
