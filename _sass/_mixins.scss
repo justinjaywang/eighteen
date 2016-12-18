@@ -114,6 +114,20 @@
   width: 100%;
 }
 
+// columns
+// -------
+
+@mixin columns($count) {
+  -webkit-columns: $count;
+  -moz-columns: $count;
+  columns: $count;
+}
+@mixin column-gap($gap) {
+  -webkit-column-gap: $gap;
+  -moz-column-gap: $gap;
+  column-gap: $gap;
+}
+
 // responsive
 // ----------
 

@@ -2,13 +2,12 @@
 layout: default
 ---
 
-<main class="main">
+<main class="main row">
   {% comment %}{{ content }}{% endcomment %}
   {% for item in page.items %}
-    <section class="section">
-      <p class="p p--{{ item.size }}">{{ item.content }}</p>
-      <p class="p p--{{ item.size }} caps">{{ item.content }}</p>
-      <aside class="aside">{{ item.aside | default: item.size }}</aside>
+    <section class="section col{% for class in item.classes %} {{ class }}{% endfor %}">
+      <aside class="aside">{{ item.size }}</aside>
+      <p class="p">{{ item.content }}</p>
     </section>
   {% endfor %}
 </main>
