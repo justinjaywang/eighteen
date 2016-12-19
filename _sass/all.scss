@@ -42,7 +42,7 @@ a {
   }
 }
 .section {
-  margin-bottom: $v*2;
+  margin-bottom: $v*3;
 }
 .aside {
   font-family: $font-family--aside;
@@ -55,7 +55,9 @@ a {
   margin-bottom: $v*0.333333;
 }
 p {
-  // TO DO: indent
+  &:not(:first-of-type) {
+    text-indent: 1.75em;
+  }
 }
 .size--192 {
   font-size: 192px;
@@ -71,11 +73,11 @@ p {
 }
 .size--64 {
   font-size: 64px;
-  line-height: 1.375;
+  line-height: 1.333333;
 }
 .size--48 {
   font-size: 48px;
-  line-height: 1.375;
+  line-height: 1.333333;
 }
 .size--32 {
   font-size: 32px;
@@ -102,32 +104,28 @@ p {
   line-height: 1.583333;
 }
 .columns--3 {
-  p {
-    @include column-gap($gutter);
-    @include columns(3);
-    @include max-width($max-width--md) {
-      @include columns(2);
-    }
-    @include max-width($max-width--sm) {
-      @include column-gap($gutter--sm);
-    }
-    @include max-width($max-width--xs) {
-      @include columns(1);
-    }
+  @include column-gap($gutter);
+  @include columns(3);
+  @include max-width($max-width--md) {
+    @include columns(2);
+  }
+  @include max-width($max-width--sm) {
+    @include column-gap($gutter--sm);
+  }
+  @include max-width($max-width--xs) {
+    @include columns(1);
   }
 }
 .columns--2 {
-  p {
-    @include column-gap($gutter);
-    @include columns(2);
-    @include max-width($max-width--lg) {
-    }
-    @include max-width($max-width--md) {
-      @include columns(1);
-    }
-    @include max-width($max-width--sm) {
-      @include column-gap($gutter--sm);
-    }
+  @include column-gap($gutter);
+  @include columns(2);
+  @include max-width($max-width--lg) {
+  }
+  @include max-width($max-width--md) {
+    @include columns(1);
+  }
+  @include max-width($max-width--sm) {
+    @include column-gap($gutter--sm);
   }
 }
 .hidden--sm {

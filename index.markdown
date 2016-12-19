@@ -4,84 +4,73 @@ items:
 - size: 96
   classes:
   - size--96
-  content: >
-    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-- size: 96
-  classes:
-  - size--96
-  content: >
-    a b c d e f g h i j k l m n o p q r s t u v w x y z
-- size: 32
-  classes:
-  - size--32
-  - two-thirds
-  content: >
-    Cupidatat home alone sint union jack esse, pizza bagels flat tops super soaker I will always love you crew cut central perk. Keepin’ it real nylon windbreaker keds the truman show aliquip pokémon, overalls tootsie pop steve urkel punk chronic overalls.
+  content: |-
+    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
 - size: 24
   classes:
   - size--24
-  - half
-  content: >
-    Cupidatat home alone sint union jack esse, pizza bagels flat tops super soaker I will always love you crew cut central perk. Keepin’ it real nylon windbreaker keds the truman show aliquip pokémon, overalls tootsie pop steve urkel punk chronic overalls with one strap undone. Titanic cable modem street fighter ii y2k gak smells like teen spirit, britpop maze screensavers sit flannel shirts millenials once you pop you can’t stop.
-- size: 21 1/3
-  classes:
-  - size--21-3
-  - half
-  content: >
-    Ullamco sports utility vehicles barbie rollerblades labore, khaki alta vista frosted tips bandanas atlanta braves. Instant messaging dolor america online bare midriffs home alone. Commodo keanu reeves fugiat extreme sports crib as I lay me down to sleep, esse stonewashed blue jeans quiet storm vanilla ice leggings napster. George clooney space jam ring pops end of the road korn. Britney spears cable modem big lebowski aerosmith mad props.
+  inner_classes:
+  - columns--2
+  content: |-
+    They worked on the songs in Belle’s house. Belle lived with her parents, and they were rich enough to have a piano. It was in a room by itself at the back of the house, overlooking the garden. This was where Belle taught Sebastian to put on mascara. If Belle’s mum had known this, she would not have been happy. She was paying for the guitar lessons. The lessons gave Sebastian’s life some structure. He went to the barber’s to get a haircut.
+
+    Belle and Sebastian are not snogging. Sometimes they hold hands, but that is only a display of public solidarity. Sebastian thinks Belle ‘kicks with the other foot’. Sebastian is wrong, but then Sebastian can never see further than the next tragic ballad. It is lucky that Belle has a popular taste in music. She is the cheese to his dill pickle.
 - size: 18
   classes:
   - size--18
-  - third
-  content: >
-    Ullamco sports utility vehicles barbie rollerblades labore, khaki alta vista frosted tips bandanas atlanta braves. Instant messaging dolor america online bare midriffs home alone. Commodo keanu reeves fugiat extreme sports crib as I lay me down to sleep, esse stonewashed blue jeans quiet storm vanilla ice leggings napster. George clooney space jam ring pops end of the road korn. Britney spears cable modem big lebowski aerosmith mad props. Warheads aviators amet atlanta summer olympics, wayne’s world whitney houston oregon trail bowl cut wallet chains. Britney spears cable modem big lebowski aerosmith mad props.
-- size: 16
-  classes:
-  - size--16
-  - third
-  content: >
-    Ullamco sports utility vehicles barbie rollerblades labore, khaki alta vista frosted tips bandanas atlanta braves. Instant messaging dolor america online bare midriffs home alone. Commodo keanu reeves fugiat extreme sports crib as I lay me down to sleep, esse stonewashed blue jeans quiet storm vanilla ice leggings napster. George clooney space jam ring pops end of the road korn. Britney spears cable modem big lebowski aerosmith mad props. Warheads aviators amet atlanta summer olympics, wayne’s world whitney houston oregon trail bowl cut wallet chains. Britney spears cable modem big lebowski aerosmith mad props. Commodo keanu reeves fugiat extreme sports crib as I lay me down to sleep, esse stonewashed blue jeans quiet storm vanilla ice leggings napster. George clooney space jam ring pops end of the road korn.
-- size: 14 2/3
-  classes:
-  - size--14-6
-  - third
-  content: >
-    Ullamco sports utility vehicles barbie rollerblades labore, khaki alta vista frosted tips bandanas atlanta braves. Instant messaging dolor america online bare midriffs home alone. Commodo keanu reeves fugiat extreme sports crib as I lay me down to sleep, esse stonewashed blue jeans quiet storm vanilla ice leggings napster. George clooney space jam ring pops end of the road korn. Britney spears cable modem big lebowski aerosmith mad props. Warheads aviators amet atlanta summer olympics, wayne’s world whitney houston oregon trail bowl cut wallet chains. Britney spears cable modem big lebowski aerosmith mad props. Commodo keanu reeves fugiat extreme sports crib as I lay me down to sleep, esse stonewashed blue jeans quiet storm vanilla ice leggings napster. George clooney space jam ring pops end of the road korn.
+  inner_classes:
+  - columns--3
+  content: |-
+    It was a day like today, really warm, when everybody is out of doors, happy to be lying around. Jim had something going. A little project that involved making posters for concerts that would never happen, and record sleeves for records that never existed. He had got up at around six am. Sprung out of bed as if the thought of sleep scared him. The sun was coming directly against the wall just beside his bed. There was a picture of Echo And The Bunnymen. It was very quiet apart from that.
+
+    He didn’t wonder what would happen today. He was going to make things happen. He felt like his enthusiasm would rip his heart out of his chest. He worked himself up into a state of excitement. The possibilities of the day were endless. He has nineteen and limber, and the sun sparkled through his tea as it splashed into the cup.
+
+    He lined up his various papers and packed them into his bag. He sat at his desk at the window and arrayed his athletes’ breakfast in front of him. He listened to Radio Four for a bit, and then he set to work with his blunted pencil and rub down transfers. He kept what he was trying to say in a straight line by using the edge forged Matriculation Card. As far as the University authorities knew, his name was Arthur Cooke.
+
+    Pretty soon, with all pressing matters blissfully set aside, he fell into a reverie the type of which could go on all day if you let it. he fladly let it because it echoed a dream he had once had, and dreams were as close as he ever got to matters spiritual. He had known a girl once who had a tent. They talked about going camping into the country one summer. He was fond of the girl and he was fond of her friend both. Her friend was nice and though studied architecture in another city was around often enough to be in on their plan. When they were around Jim often looked straight at his boots and wondered at the gifts the girls had for their various brainny pursuits. He was a bit ashamed. He was older than them, but was a bit of a flop in the brain department. His reverie involved the tent, the dusk, the smell of hot trainers and not much else. He never managed to the country with them.
+
 - size: 48
   classes:
   - size--48
-  - two-thirds
-  - caps
-  content: >
-    Cupidatat home alone sint union jack esse, pizza bagels flat tops super soaker I will always love you crew cut central perk.
-- size: 192
+  content: |-
+    At another table, a girl stared solemny into her cup. He wished he could’ve taken her picture. But then he was afraid that he might steal the moment away from her.
+- size: 128
   classes:
-  - size--192
-  content: >
-    Ian MacKaye
-- size: 21 1/3
+  - size--128
+  content: |-
+    Karen met Isabelle outside the Hillhead Underground Station, in Glasgow.
+- size: 21
   classes:
   - size--21-3
-  - half
-  content: >
-    Cupidatat home alone sint union jack esse, pizza bagels flat tops super soaker I will always love you crew cut central perk. Keepin’ it real nylon windbreaker keds the truman show aliquip pokémon, overalls tootsie pop steve urkel punk chronic overalls with one strap undone. Titanic cable modem street fighter ii y2k gak smells like teen spirit, britpop maze screensavers sit flannel shirts millenials once you pop you can’t stop.
-- size: 24
-  classes:
-  - size--24
-  - half
-  - caps
-  content: >
-    Cupidatat home alone sint union jack esse, pizza bagels flat tops super soaker I will always love you crew cut central perk. Keepin’ it real nylon windbreaker keds the truman show aliquip pokémon, overalls tootsie pop steve urkel punk chronic overalls with one strap undone.
-- size: 48
-  classes:
-  - size--48
-  - two-thirds
-  content: >
-    Cupidatat home alone sint union jack esse, pizza bagels flat tops super soaker I will always love you crew cut central perk.
+  inner_classes:
+  - columns--2
+  content: |-
+    Jim woke up again, his plan for the day lying in tatters he thought. It was a quarter past twelve. he had fallen asleep in a pool of sunlight and he had been woken by a ring at his neighbour’s door. He was drowsy and his head full of false literature of dreams and failed schedules. He dressed with not much care. When he flicked on the radio a song was playing that he found unexpected pleasure in. This was very, very lucky. His bag was packed for a quick getaway which was lucky too. So out and over the hill to the busy arcade where he did his photocopying. He was lucky on a day like today that he lived in an area of schools, tennants and flowering cherries. In the winter it was dour, but his one room flat was ok as long as he had outside to step into. He stepped along the street and noticed the heat off the pavement through his black plimsoll boots. He wondered, if he painted them with hot tyre rubber if they would last him till his housing cheque came through.
+
+    Jim came to the steps of the arcade. It was cooler for a second or two, but the hotness was replaced by the dry heat of photocopy fans. He waited in the queue of students and small business women, and he felt endless sympathy for the men that worked the machines.
 - size: 16
   classes:
   - size--16
+  inner_classes:
   - columns--3
-  content: >
-    We were sitting in the living room on the sofa, the wrong way round, looking out the window. It was quiet, and then in the car park across the road we saw Elvis – look, there beside the postman’s van, and he was walking round the postman’s van, looking in the open door. He looked as if he was thinking about getting in, but then the postman came back, and he swaggered off, walked past the window and down the stairs, and then at the bottom of the stairs right by the caretaker’s office, he started licking the pavement. Every night now since we moved in that new house there’s this noise outside the door at just about half seven or eight o’clock every night. And if we go and look outside the door, Elvis’ll be standing there waiting to be let in. And then he wanders into the living room, maybe sits down on one of the chairs or even lies down on the floor. He doesn’t say much, he just stays there for an hour or two, watching the TV. We were sitting in the living room on the sofa, the wrong way round, looking out the window. It was quiet, and then in the car park across the road we saw Elvis – look, there beside the postman’s van, and he was walking round the postman’s van, looking in the open door. He looked as if he was thinking about getting in, but then the postman came back, and he swaggered off, walked past the window and down the stairs, and then at the bottom of the stairs right by the caretaker’s office, he started licking the pavement. Every night now since we moved in that new house there’s this noise outside the door at just about half seven or eight o’clock every night. And if we go and look outside the door, Elvis’ll be standing there waiting to be let in. And then he wanders into the living room, maybe sits down on one of the chairs or even lies down on the floor. He doesn’t say much, he just stays there for an hour or two, watching the TV.
+  content: |-
+    Lazy Line Painter Jane prayed for an inspiration that would lift her above the mundanity of midday on a Thursday. She was in a hole, sat with egg and chips, watching buses through the plate glass and easy radio of some old cafe. She was too bashful to pray outright in the cafe, so she pretended to read her fortune at the bottom of her tea cup, and she got what she wanted that way.
+
+    The inspiration came along quite soon. It was lucky for her. It had seemed impossible, for her to feel ok, considering the trouble she was in. It seemed impossible, considering the gloominess of that lunchtime.
+
+    Jane had never managed to build Thursday into the weekend like some other people did. She didn’t look forward to the weekend anyway. The only good thing about the weekend was that it ushered in the following week. She was a slave to the working week. But she was unemployed.
+
+    She was doubtful whether she even deserved her Thursday gift. She had done a lot of swearing and shouting during her period. She almost felt guilty to take up the baton and run. But run she did. Straight to the cathedral graveyard. She took her idea straight through the cathedral graves and out, over the wall at the other end. She found herself in the East End of the city.
+
+    She took the inspiration and ran. It filled her like a playground balloon. Now she wasn’t treading on any toes. Jane’s agenda was clear. She just felt like running. To forget her joblessness and her hopelessness. Stripped of her present care, her skin was translucent, and she travelled fast and light over grass and stone precincts. She ran past lines of traffic into quiet streets where her breath and fast steps were the only sound she could hear. Stripped of her present care. And her guilt at being lazy.
+
+    Jane pretended she was making indie-rock videos as she tore through the East End. She thought herself quite magnificent, and caused only two minor disturbences as she went. She stopped running when she reached the river.
+
+    That was lovely. Reaching the river. A sudden wilderness of wasteland and trees. She may have been a bit worried if it wasn’t for the oxygen pumping in her head, acting like a drug. There was a path, dancing with industrial mayflys, constructed with an air of municipal grants. She followed it, ducking under flyovers, flying over traveller’s caravans. She ran past long curves of ash and alder. She ran until she flopped down in a bus shelter. The rain came on. She had run out of rock video fodder.
+
+    She waited in the bus shelter for a while. She had reached the main street of a town that was not part of the city at all. She had reached the provinces, and as such, the youth of the town flirted and taunted with an unaffected provincial air. Casuals drank QC. They put on a show for her, but they never challenged her directly. She was grateful they didn't pick on her strangeness. Her inspiration had flagged, and she didn't know how she could handle them by herself.
+
+    They went away, to be replaced by the town’s thinking girl’s talent. He smoked a regal cigarette, and paced around a little. Jane couldn’t decide if he was waiting for a bus, or if he had just come out because the rain had stopped. But she liked the sound his segs made on the wet pavement. And she admired him for his quiff. It was the biggest quiff that small town beatings would allow for. He sat down in the shelter. He obliged her by staring at her boots, and rubbing his forhead feverishly. He sat for the length of his cigarette and then went off, leaving Painter Jane alone.
+
+    She drank up the peace because she knew that she would be back in her house by fall of night. In the city, a dozen things would be vying for her attention simultaneously. She thought it was around six, but in fact it was nearer nine. She pulled her knees close to her chest. Her jogging bottoms smelled of pollen. She waited for the bus to take her back to the city. As she waited, she thought about how she had got her name, and what she was going to do about it.
 ---

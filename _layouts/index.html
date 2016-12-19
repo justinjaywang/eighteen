@@ -7,7 +7,9 @@ layout: default
   {% for item in page.items %}
     <section class="section col{% for class in item.classes %} {{ class }}{% endfor %}">
       <aside class="aside">{{ item.size }}</aside>
-      {{ item.content | markdownify }}
+      <section class="content{% for class in item.inner_classes %} {{ class }}{% endfor %}">
+        {{ item.content | markdownify }}
+      </section>
     </section>
   {% endfor %}
 </main>
