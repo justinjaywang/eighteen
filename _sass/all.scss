@@ -35,9 +35,10 @@ body {
 }
 a {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px dotted $color--secondary;
   &:hover {
-    text-decoration: none;
+    opacity: 0.5;
   }
 }
 .section {
@@ -47,12 +48,18 @@ a {
   font-family: $font-family--aside;
   font-size: $font-size--html*0.916667;
   color: $color--secondary;
+  line-height: $line-height--body;
   &:after {
     content: 'px';
   }
   margin-bottom: $v*0.333333;
 }
-.p {
+p {
+  // TO DO: indent
+}
+.size--192 {
+  font-size: 192px;
+  line-height: 1.125;
 }
 .size--128 {
   font-size: 128px;
@@ -66,42 +73,61 @@ a {
   font-size: 64px;
   line-height: 1.375;
 }
+.size--48 {
+  font-size: 48px;
+  line-height: 1.375;
+}
 .size--32 {
   font-size: 32px;
-  line-height: 1.375;
+  line-height: 1.416667;
 }
 .size--24 {
   font-size: 24px;
+  line-height: 1.5;
 }
 .size--21-3 {
   font-size: 21.333333px;
+  line-height: 1.5;
 }
 .size--18 {
   font-size: 18px;
+  line-height: 1.5;
 }
 .size--16 {
   font-size: 16px;
+  line-height: 1.541667;
+}
+.size--14-6 {
+  font-size: 14.666667px;
+  line-height: 1.583333;
 }
 .columns--3 {
-  @include column-gap($gutter);
-  @include columns(3);
-  @include max-width($max-width--lg) {
-  }
-  @include max-width($max-width--md) {
-  }
-  @include max-width($max-width--sm) {
-    @include column-gap($gutter--sm);
+  p {
+    @include column-gap($gutter);
+    @include columns(3);
+    @include max-width($max-width--md) {
+      @include columns(2);
+    }
+    @include max-width($max-width--sm) {
+      @include column-gap($gutter--sm);
+    }
+    @include max-width($max-width--xs) {
+      @include columns(1);
+    }
   }
 }
 .columns--2 {
-  @include column-gap($gutter);
-  @include columns(2);
-  @include max-width($max-width--lg) {
-  }
-  @include max-width($max-width--md) {
-  }
-  @include max-width($max-width--sm) {
-    @include column-gap($gutter--sm);
+  p {
+    @include column-gap($gutter);
+    @include columns(2);
+    @include max-width($max-width--lg) {
+    }
+    @include max-width($max-width--md) {
+      @include columns(1);
+    }
+    @include max-width($max-width--sm) {
+      @include column-gap($gutter--sm);
+    }
   }
 }
 .hidden--sm {
@@ -110,7 +136,9 @@ a {
   }
 }
 .caps {
-  text-transform: uppercase;
+  p {
+    text-transform: uppercase;
+  }
 }
 
 // grid
@@ -181,7 +209,7 @@ a {
 }
 .two-thirds {
   width: 2/3*100%;
-  @include max-width($max-width--sm) {
+  @include max-width($max-width--md) {
     width: 100%;
   }
 }

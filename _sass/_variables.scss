@@ -1,7 +1,7 @@
 // colors
 // ------
 
-$background-color--body: #fff;
+$background-color--body: #fdfdfc;
 $color--primary:         #111;
 $color--secondary:       rgba($color--primary, 0.5);
 
@@ -11,7 +11,7 @@ $color--secondary:       rgba($color--primary, 0.5);
 $font-size--html:    16px;
 $font-family--body:  'temp18-regular', sans-serif;
 $font-family--aside: monospace, sans-serif;
-$line-height--body:  1.5;
+$line-height--body:  1.541667;
 
 // sizing and spacing
 // ------------------
@@ -32,5 +32,5 @@ $max-width--lg: ($min-width--xl - 1);
 
 $max-width--container: 1440px;
 
-$gutter--sm: 1rem;
-$gutter:     2rem;
+$gutter--sm: 1.25rem;
+$gutter:     2.5rem;
