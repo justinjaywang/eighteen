@@ -3,7 +3,6 @@ layout: default
 ---
 
 <main class="main">
-  {% comment %}{{ content }}{% endcomment %}
   {% for item in page.items %}
     <section class="section{% for class in item.classes %} {{ class }}{% endfor %}">
       <aside class="aside">{{ item.size }}</aside>
