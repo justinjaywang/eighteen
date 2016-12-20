@@ -42,7 +42,7 @@ a {
   }
 }
 .section {
-  margin-bottom: $v*2;
+  margin-bottom: $v*3;
 }
 .aside {
   font-family: $font-family--aside;
@@ -52,7 +52,7 @@ a {
   &:after {
     content: 'px';
   }
-  margin-bottom: $v*0.333333;
+  margin-bottom: $v*0.5;
 }
 p {
   &:not(:first-of-type) {
@@ -145,12 +145,12 @@ p {
 
 .header {
   margin-top: $v*1.5;
-  margin-bottom: $v*3;
+  margin-bottom: $v*4.5;
   @include max-width($max-width--sm) {
     margin-top: $v*1;
   }
 }
 .footer {
-  margin-top: $v*3;
+  margin-top: $v*6;
   margin-bottom: $v*1.5;
 }
