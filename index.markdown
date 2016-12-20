@@ -24,9 +24,9 @@ items:
   - size--48
   content: |-
     At another table, a girl stared solemnly into her cup. He wished he could’ve taken her picture. But then he was afraid that he might steal the moment away from her.
-- size: 21
+- size: 24
   classes:
-  - size--21-3
+  - size--24
   inner_classes:
   - columns--2
   content: |-
