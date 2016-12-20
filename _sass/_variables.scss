@@ -2,14 +2,15 @@
 // ------
 
 $background-color--body: #fcfcfc;
-$color--primary:         #111;
-$color--secondary:       rgba($color--primary, 0.5);
+$color--body:            #090909;
+
+$opacity--faded: 0.5;
 
 // typography
 // ----------
 
 $font-size--html:    16px;
-$font-family--body:  'Temp18-Regular', sans-serif;
+$font-family--body:  'Eighteen-Regular', sans-serif;
 $font-family--aside: monospace, sans-serif;
 $line-height--body:  1.541667;
 

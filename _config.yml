@@ -2,8 +2,8 @@ title: Eighteen
 timezone: America/New_York
 url: 
 author: Justin Jay Wang
-description: > # TO DO: add description and
-  Temp 18 is a typeface.
+description: >
+  A humanist sans.
 exclude:
 - Gruntfile.js
 - Gemfile.lock
@@ -15,5 +15,7 @@ sass:
   style: compressed
 repository: justinjaywang/typeface-fall-2016
 google_analytics: 
+header: >
+  Eighteen: a humanist sans
 footer: >
   Eighteen, designed by [Justin Jay Wang](http://justinjay.wang) in the fall of two thousand and sixteen for [Type at Cooper](http://coopertype.org)'s Principles of Typeface Design.

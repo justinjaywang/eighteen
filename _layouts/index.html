@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<main class="main row">
+<main class="main">
   {% comment %}{{ content }}{% endcomment %}
   {% for item in page.items %}
-    <section class="section col{% for class in item.classes %} {{ class }}{% endfor %}">
+    <section class="section{% for class in item.classes %} {{ class }}{% endfor %}">
       <aside class="aside">{{ item.size }}</aside>
       <section class="content{% for class in item.inner_classes %} {{ class }}{% endfor %}">
         {{ item.content | markdownify }}

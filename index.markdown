@@ -5,16 +5,7 @@ items:
   classes:
   - size--96
   content: |-
-    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-- size: 24
-  classes:
-  - size--24
-  inner_classes:
-  - columns--2
-  content: |-
-    They worked on the songs in Belle’s house. Belle lived with her parents, and they were rich enough to have a piano. It was in a room by itself at the back of the house, overlooking the garden. This was where Belle taught Sebastian to put on mascara. If Belle’s mum had known this, she would not have been happy. She was paying for the guitar lessons. The lessons gave Sebastian’s life some structure. He went to the barber’s to get a haircut.
-
-    Belle and Sebastian are not snogging. Sometimes they hold hands, but that is only a display of public solidarity. Sebastian thinks Belle ‘kicks with the other foot’. Sebastian is wrong, but then Sebastian can never see further than the next tragic ballad. It is lucky that Belle has a popular taste in music. She is the cheese to his dill pickle.
+    A&#8201;B&#8201;C&#8201;D&#8201;E&#8201;F&#8201;G&#8201;H&#8201;I&#8201;J&#8201;K&#8201;L&#8201;M&#8201;N&#8201;O&#8201;P&#8201;Q&#8201;R&#8201;S&#8201;T&#8201;U&#8201;V&#8201;W&#8201;X&#8201;Y&#8201;Z&#8201;a&#8201;b&#8201;c&#8201;d&#8201;e&#8201;f&#8201;g&#8201;h&#8201;i&#8201;j&#8201;k&#8201;l&#8201;m&#8201;n&#8201;o&#8201;p&#8201;q&#8201;r&#8201;s&#8201;t&#8201;u&#8201;v&#8201;w&#8201;x&#8201;y&#8201;z
 - size: 18
   classes:
   - size--18
@@ -28,26 +19,20 @@ items:
     He lined up his various papers and packed them into his bag. He sat at his desk at the window and arrayed his athletes’ breakfast in front of him. He listened to Radio Four for a bit, and then he set to work with his blunted pencil and rub down transfers. He kept what he was trying to say in a straight line by using the edge forged Matriculation Card. As far as the University authorities knew, his name was Arthur Cooke.
 
     Pretty soon, with all pressing matters blissfully set aside, he fell into a reverie the type of which could go on all day if you let it. he fladly let it because it echoed a dream he had once had, and dreams were as close as he ever got to matters spiritual. He had known a girl once who had a tent. They talked about going camping into the country one summer. He was fond of the girl and he was fond of her friend both. Her friend was nice and though studied architecture in another city was around often enough to be in on their plan. When they were around Jim often looked straight at his boots and wondered at the gifts the girls had for their various brainny pursuits. He was a bit ashamed. He was older than them, but was a bit of a flop in the brain department. His reverie involved the tent, the dusk, the smell of hot trainers and not much else. He never managed to the country with them.
-
 - size: 48
   classes:
   - size--48
   content: |-
-    At another table, a girl stared solemny into her cup. He wished he could’ve taken her picture. But then he was afraid that he might steal the moment away from her.
-- size: 128
-  classes:
-  - size--128
-  content: |-
-    Karen met Isabelle outside the Hillhead Underground Station, in Glasgow.
+    At another table, a girl stared solemnly into her cup. He wished he could’ve taken her picture. But then he was afraid that he might steal the moment away from her.
 - size: 21
   classes:
   - size--21-3
   inner_classes:
   - columns--2
   content: |-
-    Jim woke up again, his plan for the day lying in tatters he thought. It was a quarter past twelve. he had fallen asleep in a pool of sunlight and he had been woken by a ring at his neighbour’s door. He was drowsy and his head full of false literature of dreams and failed schedules. He dressed with not much care. When he flicked on the radio a song was playing that he found unexpected pleasure in. This was very, very lucky. His bag was packed for a quick getaway which was lucky too. So out and over the hill to the busy arcade where he did his photocopying. He was lucky on a day like today that he lived in an area of schools, tennants and flowering cherries. In the winter it was dour, but his one room flat was ok as long as he had outside to step into. He stepped along the street and noticed the heat off the pavement through his black plimsoll boots. He wondered, if he painted them with hot tyre rubber if they would last him till his housing cheque came through.
+    Sebastian met Isabelle outside the Hillhead Underground Station, in Glasgow. Belle harassed Sebastian, but it was lucky for him that she did. She was very nice and funny, and sang very sweetly. Sebastian was not to know this, however. Sebastian was melancholy.
 
-    Jim came to the steps of the arcade. It was cooler for a second or two, but the hotness was replaced by the dry heat of photocopy fans. He waited in the queue of students and small business women, and he felt endless sympathy for the men that worked the machines.
+    He had placed an advert in the local supermarket. He was looking for musicians. Belle saw him do it. That’s why she wanted to meet him. She marched straight up to him unannounced and said, ‘Hey you!’ She asked him to teach her to play the guitar. Sebastian doubted he could teach her anything, but he admired her energy, so he said ‘Yes’.
 - size: 16
   classes:
   - size--16
@@ -74,3 +59,18 @@ items:
 
     She drank up the peace because she knew that she would be back in her house by fall of night. In the city, a dozen things would be vying for her attention simultaneously. She thought it was around six, but in fact it was nearer nine. She pulled her knees close to her chest. Her jogging bottoms smelled of pollen. She waited for the bus to take her back to the city. As she waited, she thought about how she had got her name, and what she was going to do about it.
 ---
+
+- size: 24
+  classes:
+  - size--24
+  inner_classes:
+  - columns--2
+  content: |-
+    They worked on the songs in Belle’s house. Belle lived with her parents, and they were rich enough to have a piano. It was in a room by itself at the back of the house, overlooking the garden. This was where Belle taught Sebastian to put on mascara. If Belle’s mum had known this, she would not have been happy. She was paying for the guitar lessons. The lessons gave Sebastian’s life some structure. He went to the barber’s to get a haircut.
+
+    Belle and Sebastian are not snogging. Sometimes they hold hands, but that is only a display of public solidarity. Sebastian thinks Belle ‘kicks with the other foot’. Sebastian is wrong, but then Sebastian can never see further than the next tragic ballad. It is lucky that Belle has a popular taste in music. She is the cheese to his dill pickle.
+- size: 128
+  classes:
+  - size--128
+  content: |-
+    Karen met Isabelle outside the Hillhead Underground Station, in Glasgow.

@@ -22,6 +22,7 @@ html {
   @include box-sizing(border-box);
   font-size: $font-size--html;
   @include user-select(none);
+  cursor: default;
 }
 body {
   font-family: $font-family--body;
@@ -29,25 +30,24 @@ body {
   font-size: 1em;
   line-height: $line-height--body;
   background-color: $background-color--body;
-  color: $color--primary;
-  // @include antialias;
+  color: $color--body;
   overflow-x: hidden;
 }
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 1px dotted $color--secondary;
+  border-bottom: 1px dotted rgba($color--body, $opacity--faded);
   &:hover {
     opacity: 0.5;
   }
 }
 .section {
-  margin-bottom: $v*3;
+  margin-bottom: $v*2;
 }
 .aside {
   font-family: $font-family--aside;
   font-size: $font-size--html*0.916667;
-  color: $color--secondary;
+  opacity: $opacity--faded;
   line-height: $line-height--body;
   &:after {
     content: 'px';
@@ -99,10 +99,6 @@ p {
   font-size: 16px;
   line-height: 1.541667;
 }
-.size--14-6 {
-  font-size: 14.666667px;
-  line-height: 1.583333;
-}
 .columns--3 {
   @include column-gap($gutter);
   @include columns(3);
@@ -128,16 +124,6 @@ p {
     @include column-gap($gutter--sm);
   }
 }
-.hidden--sm {
-  @include max-width($max-width--sm) {
-    display: none;
-  }
-}
-.caps {
-  p {
-    text-transform: uppercase;
-  }
-}
 
 // grid
 // ----
@@ -152,70 +138,6 @@ p {
     padding-right: $gutter--sm;
   }
   max-width: $max-width--container; // TO DO: adjust grid by percentage width
-}
-.row {
-  margin-left: -$gutter/2;
-  margin-right: -$gutter/2;
-  @include max-width($max-width--sm) {
-    margin-left: -$gutter--sm/2;
-    margin-right: -$gutter--sm/2;
-  }
-  @include flexbox;
-  @include flex-wrap(wrap);
-  @include align-items(flex-start);
-}
-.col {
-  padding-left: $gutter/2;
-  padding-right: $gutter/2;
-  @include max-width($max-width--sm) {
-    padding-left: $gutter--sm/2;
-    padding-right: $gutter--sm/2;
-  }
-}
-.quarter {
-  width: 1/4*100%;
-  @include max-width($max-width--lg) {
-    width: 1/3*100%;
-  }
-  @include max-width($max-width--md) {
-    width: 1/2*100%;
-  }
-  @include max-width($max-width--xs) {
-    width: 100%;
-  }
-}
-.three-quarters {
-  width: 3/4*100%;
-  @include max-width($max-width--lg) {
-    width: 2/3*100%;
-  }
-  @include max-width($max-width--md) {
-    width: 1/2*100%;
-  }
-  @include max-width($max-width--xs) {
-    width: 100%;
-  }
-}
-.third {
-  width: 1/3*100%;
-  @include max-width($max-width--md) {
-    width: 1/2*100%;
-  }
-  @include max-width($max-width--xs) {
-    width: 100%;
-  }
-}
-.two-thirds {
-  width: 2/3*100%;
-  @include max-width($max-width--md) {
-    width: 100%;
-  }
-}
-.half {
-  width: 1/2*100%;
-  @include max-width($max-width--md) {
-    width: 100%;
-  }
 }
 
 // header and footer
