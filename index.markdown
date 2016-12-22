@@ -32,7 +32,7 @@ items:
   content: |-
     Sebastian met Isabelle outside the Hillhead Underground Station, in Glasgow. Belle harassed Sebastian, but it was lucky for him that she did. She was very nice and funny, and sang very sweetly. Sebastian was not to know this, however. Sebastian was melancholy.
 
-    He had placed an advert in the local supermarket. He was looking for musicians. Belle saw him do it. That’s why she wanted to meet him. She marched straight up to him unannounced and said, ‘Hey you!’ She asked him to teach her to play the guitar. Sebastian doubted he could teach her anything, but he admired her energy, so he said ‘Yes’.
+    He had placed an advert in the local supermarket. He was looking for musicians. Belle saw him do it. That’s why she wanted to meet him. She marched straight up to him unannounced and said, "Hey you!" She asked him to teach her to play the guitar. Sebastian doubted he could teach her anything, but he admired her energy, so he said yes.
 - size: 16
   classes:
   - size--16
