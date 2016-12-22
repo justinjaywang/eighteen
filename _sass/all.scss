@@ -42,8 +42,19 @@ a {
     opacity: 0.5;
   }
 }
-.section {
+.header {
+  margin-top: $v*3;
+  margin-bottom: $v*4.5;
+  @include max-width($max-width--sm) {
+    margin-top: $v*2;
+  }
+}
+.footer {
+  margin-top: $v*7.5;
   margin-bottom: $v*3;
+}
+.section {
+  margin-bottom: $v*4.5;
 }
 .aside {
   font-family: $font-family--aside;
@@ -138,23 +149,5 @@ p {
     padding-left: $gutter--sm;
     padding-right: $gutter--sm;
   }
-  max-width: $max-width--container; // TO DO: adjust grid by percentage width
-}
-
-// header and footer
-// -----------------
-
-.header {
-  margin-top: $gutter;
-  margin-bottom: $v*4.5;
-  @include max-width($max-width--sm) {
-    margin-top: $gutter--sm;
-  }
-}
-.footer {
-  margin-top: $v*6;
-  margin-bottom: $gutter;
-  @include max-width($max-width--sm) {
-    margin-bottom: $gutter--sm;
-  }
+  max-width: $max-width--container;
 }
