@@ -16,7 +16,7 @@ sass:
 repository: justinjaywang/typeface-fall-2016
 gems:
 - jekyll-seo-tag
-google_analytics: 
+google_analytics: UA-15132368-14
 header: >
   Eighteen: a humanist sans
 footer: >
