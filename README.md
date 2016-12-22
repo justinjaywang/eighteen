@@ -1,13 +1,1 @@
-Website for typeface for *Principles of Typeface Design, Fall 2016* at Type@Cooper.
-
-## Installation
-
-```
-bundle install
-```
-
-## Development
-
-```
-bundle exec jekyll serve
-```
+Specimen website for typeface *Eighteen*, designed for Type@Cooper's Principles of Typeface Design, Fall 2016.
