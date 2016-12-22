@@ -34,6 +34,14 @@ body {
   color: $color--body;
   overflow-x: hidden;
 }
+::-moz-selection {
+  background-color: $color--body;
+  color: $background-color--body;
+}
+::selection {
+  background-color: $color--body;
+  color: $background-color--body;
+}
 a {
   color: inherit;
   text-decoration: none;
@@ -70,6 +78,8 @@ p {
   &:not(:first-of-type) {
     text-indent: 1.75em;
   }
+  @include user-select(text);
+  cursor: text;
 }
 .size--192 {
   font-size: 192px;
