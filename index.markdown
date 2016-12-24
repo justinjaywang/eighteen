@@ -59,18 +59,3 @@ items:
 
     She drank up the peace because she knew that she would be back in her house by fall of night. In the city, a dozen things would be vying for her attention simultaneously. She thought it was around six, but in fact it was nearer nine. She pulled her knees close to her chest. Her jogging bottoms smelled of pollen. She waited for the bus to take her back to the city. As she waited, she thought about how she had got her name, and what she was going to do about it.
 ---
-
-- size: 24
-  classes:
-  - size--24
-  inner_classes:
-  - columns--2
-  content: |-
-    They worked on the songs in Belle’s house. Belle lived with her parents, and they were rich enough to have a piano. It was in a room by itself at the back of the house, overlooking the garden. This was where Belle taught Sebastian to put on mascara. If Belle’s mum had known this, she would not have been happy. She was paying for the guitar lessons. The lessons gave Sebastian’s life some structure. He went to the barber’s to get a haircut.
-
-    Belle and Sebastian are not snogging. Sometimes they hold hands, but that is only a display of public solidarity. Sebastian thinks Belle ‘kicks with the other foot’. Sebastian is wrong, but then Sebastian can never see further than the next tragic ballad. It is lucky that Belle has a popular taste in music. She is the cheese to his dill pickle.
-- size: 128
-  classes:
-  - size--128
-  content: |-
-    Karen met Isabelle outside the Hillhead Underground Station, in Glasgow.
