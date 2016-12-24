@@ -121,29 +121,26 @@ p {
   font-size: 16px;
   line-height: 1.541667;
 }
+.columns--3,
+.columns--2 {
+  @include column-gap($gutter*0.666667);
+  @include max-width($max-width--sm) {
+    @include column-gap($gutter--sm);
+  }
+}
 .columns--3 {
-  @include column-gap($gutter);
   @include columns(3);
   @include max-width($max-width--md) {
     @include columns(2);
-  }
-  @include max-width($max-width--sm) {
-    @include column-gap($gutter--sm);
   }
   @include max-width($max-width--xs) {
     @include columns(1);
   }
 }
 .columns--2 {
-  @include column-gap($gutter);
   @include columns(2);
-  @include max-width($max-width--lg) {
-  }
   @include max-width($max-width--md) {
     @include columns(1);
-  }
-  @include max-width($max-width--sm) {
-    @include column-gap($gutter--sm);
   }
 }
 
