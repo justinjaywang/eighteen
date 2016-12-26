@@ -62,7 +62,7 @@ a {
   margin-bottom: $v*3;
 }
 .section {
-  margin-bottom: $v*4.5;
+  margin-bottom: $v*3;
 }
 .aside {
   font-family: $font-family--aside;
@@ -123,10 +123,7 @@ p {
 }
 .columns--3,
 .columns--2 {
-  @include column-gap($gutter*0.666667);
-  @include max-width($max-width--sm) {
-    @include column-gap($gutter--sm);
-  }
+  @include column-gap($gutter);
 }
 .columns--3 {
   @include columns(3);
@@ -148,13 +145,7 @@ p {
 // ----
 
 .container {
-  width: 100%;
-  @include margin-center;
-  padding-left: $gutter;
-  padding-right: $gutter;
-  @include max-width($max-width--sm) {
-    padding-left: $gutter--sm;
-    padding-right: $gutter--sm;
-  }
+  width: $width--container;
   max-width: $max-width--container;
+  @include margin-center;
 }

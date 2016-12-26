@@ -11,7 +11,7 @@ $opacity--faded: 0.5;
 
 $font-size--html:    16px;
 $font-family--body:  'Eighteen', sans-serif;
-$font-family--aside: monospace, sans-serif;
+$font-family--aside: sans-serif;
 $line-height--body:  1.541667;
 
 // sizing and spacing
@@ -31,7 +31,7 @@ $max-width--sm: ($min-width--md - 1);
 $max-width--md: ($min-width--lg - 1);
 $max-width--lg: ($min-width--xl - 1);
 
+$width--container:     91.666667%;
 $max-width--container: 1440px;
 
-$gutter--sm: 1.5rem;
-$gutter:     4rem;
+$gutter: 2rem;
